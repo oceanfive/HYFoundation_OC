@@ -8,35 +8,15 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYFoundation_OC'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HYFoundation_OC.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '0.0.1'
+  s.summary          = 'NSFoundation的方法扩展'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+对系统的 NSFoundation 框架的一些方法的封装，扩展了一些常用的方法
                        DESC
-
   s.homepage         = 'https://github.com/oceanfive/HYFoundation_OC'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'oceanfive' => '849638313@qq.com' }
   s.source           = { :git => 'https://github.com/oceanfive/HYFoundation_OC.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '7.0'
   s.source_files = 'HYFoundation_OC/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'HYFoundation_OC' => ['HYFoundation_OC/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

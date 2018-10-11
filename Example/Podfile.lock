@@ -1,0 +1,16 @@
+PODS:
+  - HYFoundation_OC (0.0.1)
+
+DEPENDENCIES:
+  - HYFoundation_OC (from `../`)
+
+EXTERNAL SOURCES:
+  HYFoundation_OC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYFoundation_OC: fc6dd6c3ebf3147c8ae950608b473f7f1815d467
+
+PODFILE CHECKSUM: 0f95e1ebb4f222091f00665a673ac10e32312c63
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,6 @@
+framework module HYFoundation_OC {
+  umbrella header "HYFoundation_OC-umbrella.h"
+
+  export *
+  module * { export * }
+}
