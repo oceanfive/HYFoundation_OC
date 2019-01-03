@@ -3,7 +3,7 @@
 # 只需要修改这个内容就行，其他的内容不需要改动
 git_commit_des="添加NSFileManager的分类方法"
 
-echo "\n ****** begin ****** \n"
+echo "\n******** begin ********\n"
 
 echo "\n ---- 获取podspec文件 begin ---- \n"
 
@@ -36,7 +36,7 @@ function getFileAtDirectory(){
 }
 getFileAtDirectory $directory $file_extension
 
-echo "\n -------------"
+echo "\n"
 echo "\n file_path: ${file_path}"
 echo "\n file_name: ${file_name}"
 
@@ -44,7 +44,7 @@ echo "\n ---- 获取podspec文件 end ---- \n"
 
 
 
-echo "\n ---- 读取podspec文件内容 begin ---- \n"
+echo "\n\n ---- 读取podspec文件内容 begin ---- \n"
 
 # 定义pod文件名称
 pod_file_name=${file_name}
@@ -83,7 +83,7 @@ do
 
 done < $my_file
 
-echo "\n -------------"
+echo "\n"
 echo "\n podspec_version: ${podspec_version}"
 
 echo "\n ---- 读取podspec文件内容 end ---- \n"
@@ -93,7 +93,7 @@ echo "\n ---- 读取podspec文件内容 end ---- \n"
 pod_spec_name=${file_name}
 pod_spec_version=${podspec_version}
 
-echo "\n****** ${pod_spec_name} ${pod_spec_version} begin ****** \n"
+echo "\n ****** ${pod_spec_name} ${pod_spec_version} begin ****** \n"
 
 echo "\n ------ 执行 pod install ------ \n"
 
@@ -101,7 +101,8 @@ echo "\n ------ 执行 pod install ------ \n"
 echo "cd Example"
 cd Example
 echo "pod install"
-pod install
+install_result=pod install
+echo "$install_result"
 
 # 回到上级目录
 echo "cd .."
@@ -144,7 +145,7 @@ pod trunk push --allow-warnings
 
 echo "\n****** ${pod_spec_name} ${pod_spec_version} end ****** \n"
 
-echo "****** end ******"
+echo "\n******** end ********\n"
 
 
 
