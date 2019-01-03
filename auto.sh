@@ -36,7 +36,6 @@ function getFileAtDirectory(){
 }
 getFileAtDirectory $directory $file_extension
 
-echo "\n"
 echo "\n file_path: ${file_path}"
 echo "\n file_name: ${file_name}"
 
@@ -83,7 +82,6 @@ do
 
 done < $my_file
 
-echo "\n"
 echo "\n podspec_version: ${podspec_version}"
 
 echo "\n ---- 读取podspec文件内容 end ---- \n"
@@ -102,7 +100,7 @@ echo "cd Example"
 cd Example
 echo "pod install"
 install_result=$(pod install)
-echo "$install_result"
+echo "install_result: ${install_result}"
 
 # 回到上级目录
 echo "cd .."
