@@ -43,7 +43,7 @@ echo "\n ---- 获取podspec文件 end ---- \n"
 
 
 
-echo "\n\n ---- 读取podspec文件内容 begin ---- \n"
+echo "\n\n ---- 读取podspec文件内容 begin ---- "
 
 # 定义pod文件名称
 pod_file_name=${file_name}
@@ -91,9 +91,9 @@ echo "\n ---- 读取podspec文件内容 end ---- \n"
 pod_spec_name=${file_name}
 pod_spec_version=${podspec_version}
 
-echo "\n ****** ${pod_spec_name} ${pod_spec_version} begin ****** \n"
+echo "\n\n ****** ${pod_spec_name} ${pod_spec_version} begin ****** \n"
 
-echo "\n\n ------ 执行 pod install ------ \n"
+echo "\n ------ 执行 pod install ------ \n"
 
 
 echo "\ncd Example"
@@ -107,23 +107,23 @@ echo "\ncd .."
 cd ..
 
 
-echo "\n\n ------ 执行 git 本地提交代码操作 ------ \n"
+echo "\n\n ------ 执行 git 本地提交代码操作 ------ "
 # git 操作
 echo "\ngit add ."
 git add .
-echo "\n git status"
+echo "\ngit status"
 git status
 echo "\ngit commit -m ${git_commit_des}"
 git commit -m ${git_commit_des}
 
 
-echo "\n\n ------ 执行 pod 本地校验 ------ \n"
+echo "\n\n ------ 执行 pod 本地校验 ------ "
 # pod 本地校验
 echo "\npod lib lint --allow-warnings --verbose"
 pod lib lint --allow-warnings --verbose
 
 
-echo "\n\n ------ 执行 git 打标签tag，并推送到远端 ------ \n"
+echo "\n\n ------ 执行 git 打标签tag，并推送到远端 ------ "
 # git推送到远端
 echo "\ngit tag ${pod_spec_version}"
 git tag ${pod_spec_version}
@@ -131,7 +131,7 @@ echo "\ngit push origin master --tags"
 git push origin master --tags
 
 
-echo "\n\n ------ 执行 pod 远端校验 ------ \n"
+echo "\n\n ------ 执行 pod 远端校验 ------ "
 # pod 远端校验
 echo "\npod spec lint --allow-warnings --verbose"
 pod spec lint --allow-warnings --verbose
@@ -141,7 +141,7 @@ echo "\n\n ------ 执行 pod 发布 ------ \n"
 echo "\npod trunk push --allow-warnings"
 pod trunk push --allow-warnings
 
-echo "\n****** ${pod_spec_name} ${pod_spec_version} end ****** \n"
+echo "\n\n****** ${pod_spec_name} ${pod_spec_version} end ****** \n"
 
 echo "\n******** end ********\n"
 
