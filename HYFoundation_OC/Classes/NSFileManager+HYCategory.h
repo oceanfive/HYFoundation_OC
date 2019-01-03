@@ -7,16 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#if __has_include(<HYTool/HYPathTool.h>)
-#import <HYTool/HYPathTool.h>
-#else
 #import "HYPathTool.h"
-#endif
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSFileManager (HYCategory)
 
+#pragma mark - 创建文件夹
 /**
  创建文件夹
 
@@ -37,31 +34,51 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (BOOL)hy_createDirectoryAtPath:(NSString *)path;
 
-/**
- 获取文件的“全路径”，包含子文件夹的，会过滤掉非文件的内容（比如文件夹）
 
- @param path 路径
- @return 所有的文件的全路径
+/**
+ 删除文件/文件夹，传入文件路径则删除对应的文件，传入文件夹路径则删除这个文件夹的所有内容，包含本身的文件夹
  
- 例子：
- .../Documents/newOne/.DS_Store
- .../Documents/newOne/11.plist
- .../Documents/newOne/12.plist
- .../Documents/newOne/13.plist
- .../Documents/newOne/14.plist
- .../Documents/newOne/newOneOne  --- 这个是不存在的！！！
- .../Documents/newOne/newOneOne/110.plist
- .../Documents/newOne/newOneOne/111.plist
- .../Documents/newOne/newOneOne/112.plist
- 
+ @param path 文件/文件夹的全路径
+ @return YES，成功；NO：失败；
  */
-- (NSArray *)hy_getAllFilePathsAtPath:(NSString *)path;
+- (BOOL)hy_removeFileItemAtPath:(NSString *)path;
+
+
+#pragma mark - 文件/文件夹属性
+
+/**
+ 获取 path 位置处的 文件/文件夹 属性
+
+ @param path 路径，是全路径
+ @return 属性 NSDictionary
+ */
+- (nullable NSDictionary<NSFileAttributeKey, id> *)hy_attributesOfItemAtPath:(NSString *)path;
+
+
+#pragma mark - 是否是文件夹的判断
+/// "全路径 path " 是否是文件夹
+- (BOOL)hy_isDirectoryAtPath:(NSString *)path;
+/// "全路径 path " 是否是文件
+- (BOOL)hy_isFileAtPath:(NSString *)path;
+
+
+#pragma mark - 查找子文件夹
+/// 获取 “全路径 path ” 的所有 子文件夹/文件
+- (nullable NSArray<NSString *> *)hy_fullSubpathsAtPath:(NSString *)path;
+/// 获取 “全路径 path ” 的所有 子文件
+- (nullable NSArray<NSString *> *)hy_fullSubFilePathsAtPath:(NSString *)path;
+/// 获取 “全路径 path ” 的所有 子文件夹
+- (nullable NSArray<NSString *> *)hy_fullSubDirectoryPathsAtPath:(NSString *)path;
+
+#pragma mark - 文件大小
+/// 在 "全路径 filePath" 处的 "文件大小"，如果是文件夹会被过滤掉
+- (unsigned long long)hy_singleFileSizeAtFilePath:(NSString *)filePath;
 
 /**
  获取指定文件/文件夹的大小
  
  @param filePath 文件/文件夹，传入的是“全路径”
- @return 大小
+ @return 大小 (Bytes)
  
  备注：
  返回值单位为字节
@@ -70,7 +87,7 @@ NS_ASSUME_NONNULL_BEGIN
  1K = 1000 B
  
  */
-- (unsigned long long)hy_getFileSizeAtFilePath:(NSString *)filePath;
+- (unsigned long long)hy_fileSizeAtFilePath:(NSString *)filePath;
 
 /**
  获取app常用沙盒文件夹的大小
@@ -86,49 +103,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (unsigned long long)hy_getAPPSandboxFileSizeWithPath:(HYAPPSandboxPath)path;
 
-/**
- 删除文件/文件夹，传入文件路径则删除对应的文件，传入文件夹路径则删除这个文件夹的所有内容，包含本身的文件夹
-
- @param path 文件/文件夹的全路径
- @return YES，成功；NO：失败；
- */
-- (BOOL)hy_removeFileItemAtPath:(NSString *)path;
-
-
-
-
-
-#pragma mark - 暂不使用
-/**
- 获取指定文件下的所有文件/文件夹路径，这个路径是“全路径”
- 
- @param path 文件夹路径
- @param isIncludedSubfolder YES，包含子文件夹；NO不包含子文件夹
- @param isIncludedDirectory 是否包含文件夹，YES，包含文件夹，不会过滤；NO，不包含文件夹，会过滤文件夹；
- @return 所有的文件全路径
- 
- 备注：
- //--------------------------------------------------------------------
- isIncludedSubfolder参数为 YES 的情况：这个方法“会”进行遍历，“包含”子文件夹的文件
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/.DS_Store
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/11.plist
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/12.plist
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/13.plist
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/14.plist
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/newOneOne
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/newOneOne/110.plist
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/newOneOne/111.plist
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/newOneOne/112.plist
- //--------------------------------------------------------------------
- isIncludedSubfolder参数为 NO 的情况：这个方法“不会”进行遍历，“不包含“子文件夹以及子文件夹下的文件
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/.DS_Store
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/11.plist
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/12.plist
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/13.plist
- /Users/wuhaiyang/Library/Developer/CoreSimulator/Devices/7808C480-DA51-4ACC-B7A6-B33FBF78D5CF/data/Containers/Data/Application/376E8568-4860-4689-83E4-CC3CB03CFEA9/Documents/newOne/14.plist
- //--------------------------------------------------------------------
- */
-- (NSArray *)hy_getAllFilePathsAtPath:(NSString *)path isIncludedSubfolder:(BOOL)isIncludedSubfolder isIncludedDirectory:(BOOL)isIncludedDirectory;
 
 @end
 

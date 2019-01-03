@@ -21,9 +21,15 @@
         return [self hy_getCachesPath];
     } else if (pathType == HYAPPSandboxPathPreferences) {
         return [self hy_getPreferencesPath];
+    } else if (pathType == HYAPPSandboxPathRoot) {
+        return [self hy_getRootPath];
     } else {
         return nil;
     }
+}
+
++ (NSString *)hy_getRootPath {
+    return NSHomeDirectory();
 }
 
 + (NSString *)hy_getDocumentsPath {
