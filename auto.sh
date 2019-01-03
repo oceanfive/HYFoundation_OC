@@ -101,7 +101,7 @@ echo "\n ------ 执行 pod install ------ \n"
 echo "cd Example"
 cd Example
 echo "pod install"
-install_result=pod install
+install_result=$(pod install)
 echo "$install_result"
 
 # 回到上级目录
