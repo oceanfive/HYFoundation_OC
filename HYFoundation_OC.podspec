@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYFoundation_OC'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'NSFoundation的方法扩展'
   s.description      = <<-DESC
 对系统的 NSFoundation 框架的一些方法的封装，扩展了一些常用的方法
