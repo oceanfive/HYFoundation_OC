@@ -10,7 +10,6 @@
 #import "NSObject+HYCategory.h"
 #import "NSData+HYCategory.h"
 #import "NSNumberFormatter+HYCategory.h"
-#import "NSDate+HYCategory.h"
 #import "NSCharacterSet+HYCategory.h"
 #import <CommonCrypto/CommonDigest.h>
 #import "NSDictionary+HYCategory.h"
@@ -415,7 +414,9 @@ NSArray * AFQueryStringPairsFromKeyAndValue(NSString *key, id value) {
 #pragma mark - NSString 和 NSDate 互转
 - (NSDate *)hy_dateWithFormatter:(NSString *)formatter {
     if ([NSString hy_isNullString:self]) return nil;
-    return [NSDate hy_dateWithString:self formatter:formatter];
+    // todo
+    return nil;
+//    return [NSDate hy_dateWithString:self formatter:formatter];
 }
 
 - (NSDate *)hy_dateWithDefaultDateFormatter {
