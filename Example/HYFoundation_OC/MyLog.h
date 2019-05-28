@@ -16,6 +16,9 @@ void MyLogOutput(NSString *format, ...) NS_NO_TAIL_CALL;
 
 + (void)log:(NSString *)format, ... NS_REQUIRES_NIL_TERMINATION;
 
+- (void)log;
++ (void)log;
+
 @end
 
 NS_ASSUME_NONNULL_END

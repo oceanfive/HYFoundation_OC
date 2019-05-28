@@ -298,6 +298,20 @@ NSArray * AFQueryStringPairsFromKeyAndValue(NSString *key, id value) {
     return [self hy_substringWithRange:range];
 }
 
+- (unichar)hy_characterAtIndex:(NSUInteger)index {
+    if (index >= self.length) return HYUnicharNotFound;
+    return [self characterAtIndex:index];
+}
+
+- (unichar)hy_characterAtFirst {
+    return [self hy_characterAtIndex:0];
+}
+
+- (unichar)hy_characterAtLast {
+    return [self hy_characterAtIndex:self.length - 1];
+}
+
+
 #pragma mark - 是否包含子字符串
 - (BOOL)hy_containsString:(NSString *)string {
     if ([NSString hy_isNullString:string] || [NSString hy_isNullString:self]) return NO;
@@ -411,17 +425,6 @@ NSArray * AFQueryStringPairsFromKeyAndValue(NSString *key, id value) {
     return [NSData hy_arrayFromData:data];
 }
 
-#pragma mark - NSString 和 NSDate 互转
-- (NSDate *)hy_dateWithFormatter:(NSString *)formatter {
-    if ([NSString hy_isNullString:self]) return nil;
-    // todo
-    return nil;
-//    return [NSDate hy_dateWithString:self formatter:formatter];
-}
-
-- (NSDate *)hy_dateWithDefaultDateFormatter {
-    return [self hy_dateWithFormatter:@"yyyy-MM-dd HH:mm:ss"];
-}
 
 #pragma mark - NSString 和 c语言string 互转
 + (NSString *)hy_stringFromCString:(const char *)cString {

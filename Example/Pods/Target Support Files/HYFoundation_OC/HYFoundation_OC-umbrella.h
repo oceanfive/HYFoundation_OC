@@ -14,6 +14,7 @@
 #import "HYMath.h"
 #import "HYObject.h"
 #import "HYPathTool.h"
+#import "HYProxy.h"
 #import "NSArray+HYCategory.h"
 #import "NSAttributedString+HYCategory.h"
 #import "NSBundle+HYCategory.h"

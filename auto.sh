@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # 只需要修改这个内容就行，其他的内容不需要改动
-git_commit_des="添加日志Log方法"
+git_commit_des="利用runtime解决NSTimer定时器循环引用的问题"
 
 echo "\n******** begin ********\n"
 

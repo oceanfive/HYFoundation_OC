@@ -305,6 +305,7 @@ typedef NS_ENUM(NSInteger, HYRegexType) {
 - (NSString *)hy_substringWithRange:(NSRange)range;
 
 #pragma mark - 字符获取
+// 字符串 ====================
 /**
  获取字符串的第一个字符
  */
@@ -331,6 +332,24 @@ typedef NS_ENUM(NSInteger, HYRegexType) {
  */
 - (NSString *)hy_stringInRange:(NSRange)range;
 
+// 字符 ===================
+/**
+ 获取 第一个 字符在 unicode 表中的索引
+ */
+- (unichar)hy_characterAtFirst;
+
+/**
+ 获取 最后一个 字符在 unicode 表中的索引
+ */
+- (unichar)hy_characterAtLast;
+
+/**
+ 获取 index 处的 字符在 unicode 表中的索引
+
+ @param index 索引
+ @return 字符在 unicode 表中的索引
+ */
+- (unichar)hy_characterAtIndex:(NSUInteger)index;
 
 #pragma mark - 是否包含子字符串
 /**
@@ -403,27 +422,10 @@ typedef NS_ENUM(NSInteger, HYRegexType) {
 @property (nonatomic, strong, readonly) NSArray *hy_arrayValue;
 
 
-#pragma mark - NSString 和 NSDate 互转
-/**
- 字符串转日期
-
- @param formatter 日期格式
- @return NSDate
- */
-- (NSDate *)hy_dateWithFormatter:(NSString *)formatter;
-
-/**
- 字符串转日期,日期格式为 yyyy-MM-dd HH:mm:ss
-
- @return NSDate
- */
-- (NSDate *)hy_dateWithDefaultDateFormatter;
-
-
 #pragma mark - NSString 和 c语言string 互转
 
 /**
- c语言字符串转OC字符串
+ c语言字符串转OC字符串(UTF-8编码)
 
  @param cString c语言字符串
  @return OC字符串
@@ -431,7 +433,7 @@ typedef NS_ENUM(NSInteger, HYRegexType) {
 + (NSString *)hy_stringFromCString:(const char *)cString;
 
 /**
- OC字符串转c语言字符串
+ OC字符串转c语言字符串(UTF-8编码)
 
  @param string OC字符串
  @return c语言字符串
