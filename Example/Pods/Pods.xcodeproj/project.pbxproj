@@ -7,46 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00A6CB491B59B62B5DF092F959AA01F3 /* HYPathTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AC0AEDB706343F68A523A4F6A17175 /* HYPathTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0687A331330C706713B790AAD8665009 /* NSDictionary+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = D337A484D238624B6CC21FFF2E381EEC /* NSDictionary+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		134A8D102F711595AE3372A414CA9A2F /* HYMath.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F4233E9DD05CDEBFF755F228430F09 /* HYMath.m */; };
+		0018EB7EA100D90E45D5E4EBD288D4D2 /* HYMath.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAA78937E3568E9CC35CA3ACC49773B /* HYMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D46FA69ACD5DD9125D00566615901C /* NSDictionary+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7734081D916415420C689277323E208F /* NSDictionary+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D9B913B4A9010E4DB68DB81D9087108 /* HYLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 894DCCEB1E5AF7D2D806752C0821D476 /* HYLog.m */; };
+		0E2D23DEDCA64BC4D5FDBF785ED40E6F /* NSObject+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B513EC9D2915A8C41D55BF475E33ED2D /* NSObject+HYCategory.m */; };
+		103869B049B58BF89F3EEBD61FE2C5E5 /* NSFileManager+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFB50AE2B5E063BD6EF6521FA5AE711 /* NSFileManager+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		159BBD7EEC15726A101A037EEEEEBA57 /* HYPathTool.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7FB264FC7AF6196B3044A54EBE552B /* HYPathTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C9518594FC368C4AE49E012267813F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		1A290AE17DDDDA22AE0C82FF9C6BB20D /* NSURL+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D39A0E860AE01291C824C425D36C91 /* NSURL+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DE92C7EBD320CE38B5D0CB4CDC019B5 /* HYProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC54298D2E0FDB302CB29613F36CDC2F /* HYProxy.m */; };
-		26B0F0E0BD66610488DF850E1DDD36D4 /* HYPathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BE68E75A4329FA692927B91BD801E2BF /* HYPathTool.m */; };
-		2CEF6EC1FFAD8A7B2A249A7B487837BD /* NSString+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB2B2CB54025CE0F2A8C4F7E0A7415 /* NSString+HYCategory.m */; };
+		17767D5B5B9014565C23585F29BD90F2 /* NSAttributedString+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FD3F8B2AF215D97162905087F7A910 /* NSAttributedString+HYCategory.m */; };
+		1861DFEBF8B6043A5654EA3661AE16D6 /* HYObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA1DF7F225B6B224DA6A1E3F96B0858 /* HYObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305582E80EAF8E7A6A3D151B0DC597D3 /* NSCharacterSet+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B78E74ABCA92830CA0F88F2497CFBC0 /* NSCharacterSet+HYCategory.m */; };
+		320948EA54F00A1CAB520592F974EF1B /* NSString+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = D76AA43700028B4B6B1DF1F582135FBE /* NSString+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FA54B1EE7563DAFFAD3343AD5E893E /* HYFoundation_OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4009E8CFD39F096AD65F285627F68224 /* HYFoundation_OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C4F8BFA1E9672D92094C9F0B7D72663 /* Pods-HYFoundation_OC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2258723DA3C71F2F3EA73C76EE2B26C /* Pods-HYFoundation_OC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42D07FEB97E2C449940520205E293A73 /* HYObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF0B218DAE4529CD9142EBC46C9263D /* HYObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420501F37EC2B7970CA3C80A5BE011E8 /* HYProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE615577547B32A4F0187BE7F4973951 /* HYProxy.m */; };
+		4FE4C54D146074E50189F2D0A376DF73 /* NSObject+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 661E1F7A3676C7BD8CE36D35E66C90F8 /* NSObject+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52C0EA32DEF236AA64445EDBF7A8DBA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		5B0B1E45C997AF03D88297F64D696F4E /* HYFoundation_OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD7EC68C5F6AB6E0F7A9EB9F875C4F3 /* HYFoundation_OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60A83DA4ACB52FDA1B94F9005C2DA809 /* NSAttributedString+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB43EBAD51BB910FC418642EB8C852D /* NSAttributedString+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6290FE24F7055335E44E04B9BE9D76BC /* NSData+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 07261C122C654D333EB778A4D4F3554F /* NSData+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		674953610803071E950F6529DFCEEFDF /* NSCharacterSet+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A71C958A9BA6B727C3EDD0D9539235 /* NSCharacterSet+HYCategory.m */; };
-		6CB78B3E1379A74E4616EA9B9C3F6028 /* NSArray+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2620D64DBE4D03077BFE89583D5DCC /* NSArray+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D8213E03F531648EA7FF827CC149D98 /* HYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B17CD470F9620278C5319279EBC665 /* HYObject.m */; };
-		6F0A7823D879D50C310047EEBF6A2BF1 /* NSURL+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 87974A36EE5898BB6067C119F0D395F0 /* NSURL+HYCategory.m */; };
-		71B52933938886CC595D243AEE132D9A /* HYLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A55A49A4315E4D214A5265D04BD34E /* HYLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79B054FD7BEE664EE52E5AE912B0F144 /* NSCharacterSet+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D76B3BADF19E9AE8650851D7FE33A0 /* NSCharacterSet+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94340C673C576E64CFA40176E0887D07 /* NSData+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5746F3D6DA099567E795A820DC943A8F /* NSData+HYCategory.m */; };
-		9C402982F9821B476B919B3D4BB6ACCF /* NSBundle+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0C68B1DF2419BFEA2B7B0DC64573E4 /* NSBundle+HYCategory.m */; };
-		9F17A2EB488C11BB04F1836CA20D3ACB /* NSFileManager+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 642A6D8AAE13A764455328DCF7928E07 /* NSFileManager+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B4FB6C5B86D88996272007FC4B15211 /* NSArray+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D7B84601543B57FA5C544036B5110 /* NSArray+HYCategory.m */; };
+		6CC70723621A416C77EB5A488623F44E /* NSURL+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6EE2F90FF1DBDF8D27A8AC85D184A9 /* NSURL+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		709D90F07EFC7D725709B0DF14033207 /* HYProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 82769514EB163D6A82A85004BB18E11B /* HYProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A716002428B4E57D33ECC7AD267D2E /* HYTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD910BC6E4A3BBFFDA048A79D0883FF /* HYTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732BEE02EA8A915AF8DBCFAE370DE9AD /* NSData+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD449BF6E0F41D36488B8D973135F98 /* NSData+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7363FB51AF730EE39B206510259CFD1A /* NSData+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE28756AD68B8BABB14AE5897B71A0DA /* NSData+HYCategory.m */; };
+		7DE67A3BF628294B42A667A502EFFE24 /* HYPathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D443A3D3F2EE04CE07504C96FD180 /* HYPathTool.m */; };
+		7FA2B28F04996F40235ED8C36329738B /* NSCharacterSet+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A823585AF37E74B9CE1D2F19A167C86C /* NSCharacterSet+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87D21126C0141E8F3C29354F7C1C08B9 /* NSBundle+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55111A0A9EA38634A55A72639794D063 /* NSBundle+HYCategory.m */; };
+		8A613CBC50FC5B7638CD743D3389C237 /* NSDictionary+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383F199F5FA09B396D3B9F648D5471B /* NSDictionary+HYCategory.m */; };
+		95DFEB89BFF50633055311E346D275E4 /* HYFoundation_OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA8900CE45542439162F8299F2A9E7B /* HYFoundation_OC-dummy.m */; };
+		9AFD41FA46C4BDC8F08F5C104B768010 /* NSURL+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDB8BF58F05671498E121F48CF058A2 /* NSURL+HYCategory.m */; };
+		A09CC56568E97D20FC92DB7EF0509107 /* NSNumberFormatter+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 297D25413A2785EBC8EB5B188B3129D1 /* NSNumberFormatter+HYCategory.m */; };
+		A974E289D7DEBF5A996264E9099805BC /* HYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E44A8D0FA9F9A82FDFFFA6E848F5196 /* HYTimer.m */; };
+		A987447C2A976D416BF7594EF5FEB30A /* NSString+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D39A38D4FAD8FF1D43D6ED12447DA321 /* NSString+HYCategory.m */; };
+		AA54EAEE6EAB9BF7816CB17E68307219 /* NSFileManager+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CB40BA4225C30DA20A4791A7997234F3 /* NSFileManager+HYCategory.m */; };
 		B90341928BC86A62526A88945C15751A /* Pods-HYFoundation_OC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1926E48CB70EF4A6F4BD46D9B5361AFA /* Pods-HYFoundation_OC_Tests-dummy.m */; };
-		B9238F78E4A08018CBDE4671FBF2532C /* NSNumberFormatter+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 00AF10DCB000492230AFB1ACBBC7FBD7 /* NSNumberFormatter+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBE8704B52BCB81D385E6A239A0F5248 /* NSAttributedString+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FFBAD47BDC43E73525EEB0B6B7CAB6 /* NSAttributedString+HYCategory.m */; };
-		BEA3F885C38CEC2FF615663F35255591 /* NSArray+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE83279F6D345A72998465643B216E /* NSArray+HYCategory.m */; };
-		CAFA5175654D11A63FDB97389A37CDEF /* HYProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD524D9FD501F1891D324C4FCFAD65E /* HYProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFBA11B010B96325B890F18A4C0320C4 /* HYLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E593C84F1D78EC87B573A5E1066F8FA2 /* HYLog.m */; };
-		DABA4EF35B1DDC718C1CD43BA2A6C57B /* NSNumberFormatter+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB635BE26AB82452FDD93FE74AA940 /* NSNumberFormatter+HYCategory.m */; };
-		E1A4C09086D7560ADF1052DAE1124611 /* NSObject+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B43C4A9EDE1493340E9954C2D1937A3B /* NSObject+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8ECF332832959E4B3A986FE7905EF46 /* NSBundle+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0E995D4B16E4538AA678DB11CA6CFA /* NSBundle+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E93907EBC65E1563F28209D5B6C4A4AD /* HYFoundation_OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF078003A6E4AE672FF6FF93EDAA6DB /* HYFoundation_OC-dummy.m */; };
+		C4299C7477E1F283B8E3D1469B3B223E /* NSArray+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4825692358F7B9DC8C54BCD46CBBF7 /* NSArray+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5137001EB7AB803BA289E335B582755 /* HYLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C64AA5856EF1A7C320B804B4D83C35 /* HYLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C51EC71DDFD3305C145A09B74E765311 /* HYMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E500E42BF80363913E182740EAE7A /* HYMath.m */; };
+		C8CC2C916FE11DD2F80508488B117A8E /* NSNumberFormatter+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9A59658C97A5F481246A20BD9112FF /* NSNumberFormatter+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF354396CDE252C6DFDEC06922026278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E54ACDCA07A961C8438C783A3757B9AE /* NSBundle+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E543F46411C1BF50872C7BA8DD484D95 /* NSBundle+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E87384C1C842AE2AE12C60AFF13A772A /* HYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A96345AB440E112C838B4001B3E65 /* HYObject.m */; };
 		ED91A23A1AB75BAC2A6FB1D101B4168D /* Pods-HYFoundation_OC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490E16D76CBD5BFE0C757B53EFC0288B /* Pods-HYFoundation_OC_Example-dummy.m */; };
-		F0B91BC08CD055817FB552498B53491F /* NSObject+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B16314FC16017EA2ABD92739418F0EFC /* NSObject+HYCategory.m */; };
-		F3404DA8EE1F30E3BEC274B6DD690BD1 /* NSFileManager+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7E17C03ABFBB67545F63ACC25901EF /* NSFileManager+HYCategory.m */; };
-		F4D6305BA24DEB7E500AC39F1465F3C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		F87E01B28153305E80210D24FD5872F6 /* HYMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 05279C207D8F00B34D55FACEF87DE9E1 /* HYMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8EC63BEFE868684CD7DB438669A94E9 /* NSString+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D172C7F9471050CDE832EA887F77C93 /* NSString+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA4E3F60DB2533F398776F7693EF8112 /* NSDictionary+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D188BA2B4213CA022E0BE4757BFF6B47 /* NSDictionary+HYCategory.m */; };
+		F7532FB5AA8790DE91A288A7109CAD26 /* NSAttributedString+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 738A2595AF599B49AFFA0A3341E143A8 /* NSAttributedString+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC04086669488C78574A7D53981FAFC9 /* Pods-HYFoundation_OC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9186652A9BE4D6F63019D45A93618886 /* Pods-HYFoundation_OC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -62,75 +64,77 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 575F677778F498B538C09457C63E3B9D;
+			remoteGlobalIDString = 0DF7806332561305A7CCB3AE17DDED25;
 			remoteInfo = HYFoundation_OC;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00AF10DCB000492230AFB1ACBBC7FBD7 /* NSNumberFormatter+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumberFormatter+HYCategory.h"; path = "HYFoundation_OC/Classes/NSNumberFormatter+HYCategory.h"; sourceTree = "<group>"; };
-		02AC0AEDB706343F68A523A4F6A17175 /* HYPathTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPathTool.h; path = HYFoundation_OC/Classes/HYPathTool.h; sourceTree = "<group>"; };
-		04B17CD470F9620278C5319279EBC665 /* HYObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYObject.m; path = HYFoundation_OC/Classes/HYObject.m; sourceTree = "<group>"; };
-		05279C207D8F00B34D55FACEF87DE9E1 /* HYMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYMath.h; path = HYFoundation_OC/Classes/HYMath.h; sourceTree = "<group>"; };
-		07261C122C654D333EB778A4D4F3554F /* NSData+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+HYCategory.h"; path = "HYFoundation_OC/Classes/NSData+HYCategory.h"; sourceTree = "<group>"; };
 		0A2590D47B7A9A05BA21431EF4A2787F /* Pods-HYFoundation_OC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYFoundation_OC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0D172C7F9471050CDE832EA887F77C93 /* NSString+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HYCategory.h"; path = "HYFoundation_OC/Classes/NSString+HYCategory.h"; sourceTree = "<group>"; };
 		10B1201BA2C97180EF8DCEE64A28C5F7 /* Pods-HYFoundation_OC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYFoundation_OC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		10D17CDA79F46167515E82686EFD3D32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		17988A170986E4086076BC6680EDB859 /* HYFoundation_OC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYFoundation_OC.xcconfig; sourceTree = "<group>"; };
-		18D76B3BADF19E9AE8650851D7FE33A0 /* NSCharacterSet+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCharacterSet+HYCategory.h"; path = "HYFoundation_OC/Classes/NSCharacterSet+HYCategory.h"; sourceTree = "<group>"; };
+		14065F0D2ABCAB5D90DEF4EF31CCF225 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1926E48CB70EF4A6F4BD46D9B5361AFA /* Pods-HYFoundation_OC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYFoundation_OC_Tests-dummy.m"; sourceTree = "<group>"; };
-		1A2620D64DBE4D03077BFE89583D5DCC /* NSArray+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+HYCategory.h"; path = "HYFoundation_OC/Classes/NSArray+HYCategory.h"; sourceTree = "<group>"; };
+		1B6EE2F90FF1DBDF8D27A8AC85D184A9 /* NSURL+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+HYCategory.h"; path = "HYFoundation_OC/Classes/NSURL+HYCategory.h"; sourceTree = "<group>"; };
+		1B9A59658C97A5F481246A20BD9112FF /* NSNumberFormatter+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumberFormatter+HYCategory.h"; path = "HYFoundation_OC/Classes/NSNumberFormatter+HYCategory.h"; sourceTree = "<group>"; };
+		1DFB50AE2B5E063BD6EF6521FA5AE711 /* NSFileManager+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+HYCategory.h"; path = "HYFoundation_OC/Classes/NSFileManager+HYCategory.h"; sourceTree = "<group>"; };
 		2683BA1517E57E7ADE41171EBE96C7EB /* Pods-HYFoundation_OC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYFoundation_OC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		26919C1DD52F64A6A31D1EBCC4FD1AE7 /* Pods-HYFoundation_OC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYFoundation_OC_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2BB43EBAD51BB910FC418642EB8C852D /* NSAttributedString+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+HYCategory.h"; path = "HYFoundation_OC/Classes/NSAttributedString+HYCategory.h"; sourceTree = "<group>"; };
-		2EE7EFD6E02D558A50BEA7E6AB022501 /* HYFoundation_OC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HYFoundation_OC-Info.plist"; sourceTree = "<group>"; };
-		2F91934F11ED69DA46C623438DE1D969 /* HYFoundation_OC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYFoundation_OC-prefix.pch"; sourceTree = "<group>"; };
+		297D25413A2785EBC8EB5B188B3129D1 /* NSNumberFormatter+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumberFormatter+HYCategory.m"; path = "HYFoundation_OC/Classes/NSNumberFormatter+HYCategory.m"; sourceTree = "<group>"; };
+		2A675D401CCE68BA3FF4408ABDA97409 /* HYFoundation_OC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYFoundation_OC-prefix.pch"; sourceTree = "<group>"; };
+		2E44A8D0FA9F9A82FDFFFA6E848F5196 /* HYTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYTimer.m; path = HYFoundation_OC/Classes/HYTimer.m; sourceTree = "<group>"; };
+		3383F199F5FA09B396D3B9F648D5471B /* NSDictionary+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+HYCategory.m"; path = "HYFoundation_OC/Classes/NSDictionary+HYCategory.m"; sourceTree = "<group>"; };
+		3E8D7B84601543B57FA5C544036B5110 /* NSArray+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HYCategory.m"; path = "HYFoundation_OC/Classes/NSArray+HYCategory.m"; sourceTree = "<group>"; };
+		4009E8CFD39F096AD65F285627F68224 /* HYFoundation_OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYFoundation_OC-umbrella.h"; sourceTree = "<group>"; };
 		4596A6515A4FDC514BE29480A9C85ACB /* Pods-HYFoundation_OC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYFoundation_OC_Example-Info.plist"; sourceTree = "<group>"; };
 		490E16D76CBD5BFE0C757B53EFC0288B /* Pods-HYFoundation_OC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYFoundation_OC_Example-dummy.m"; sourceTree = "<group>"; };
 		4A34481CD485626C0EDE6198F2141A48 /* Pods-HYFoundation_OC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYFoundation_OC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4BD7EC68C5F6AB6E0F7A9EB9F875C4F3 /* HYFoundation_OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYFoundation_OC-umbrella.h"; sourceTree = "<group>"; };
-		4DF0B218DAE4529CD9142EBC46C9263D /* HYObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYObject.h; path = HYFoundation_OC/Classes/HYObject.h; sourceTree = "<group>"; };
-		51E0EA5121B14C4FFBB38DED409384C0 /* HYFoundation_OC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYFoundation_OC.modulemap; sourceTree = "<group>"; };
-		5746F3D6DA099567E795A820DC943A8F /* NSData+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+HYCategory.m"; path = "HYFoundation_OC/Classes/NSData+HYCategory.m"; sourceTree = "<group>"; };
+		4B158B74FF2588B6CC6948F926801EB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4DA22052A4A4738E68AEF8304656D4FF /* HYFoundation_OC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HYFoundation_OC-Info.plist"; sourceTree = "<group>"; };
+		55111A0A9EA38634A55A72639794D063 /* NSBundle+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+HYCategory.m"; path = "HYFoundation_OC/Classes/NSBundle+HYCategory.m"; sourceTree = "<group>"; };
+		577D443A3D3F2EE04CE07504C96FD180 /* HYPathTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPathTool.m; path = HYFoundation_OC/Classes/HYPathTool.m; sourceTree = "<group>"; };
+		5CF62BA313D0EDEE9C22C945C0F450D2 /* HYFoundation_OC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYFoundation_OC.xcconfig; sourceTree = "<group>"; };
+		5DDB8BF58F05671498E121F48CF058A2 /* NSURL+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+HYCategory.m"; path = "HYFoundation_OC/Classes/NSURL+HYCategory.m"; sourceTree = "<group>"; };
 		61E43571758DEE122581731CF82094CD /* Pods-HYFoundation_OC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYFoundation_OC_Tests.modulemap"; sourceTree = "<group>"; };
-		642A6D8AAE13A764455328DCF7928E07 /* NSFileManager+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+HYCategory.h"; path = "HYFoundation_OC/Classes/NSFileManager+HYCategory.h"; sourceTree = "<group>"; };
-		688039A678317AC8684968E79FAE3941 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		661E1F7A3676C7BD8CE36D35E66C90F8 /* NSObject+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+HYCategory.h"; path = "HYFoundation_OC/Classes/NSObject+HYCategory.h"; sourceTree = "<group>"; };
 		6965F41F45454ECF8D238EE8C436E762 /* HYFoundation_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYFoundation_OC.framework; path = HYFoundation_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FD524D9FD501F1891D324C4FCFAD65E /* HYProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYProxy.h; path = HYFoundation_OC/Classes/HYProxy.h; sourceTree = "<group>"; };
-		77DC9676EBD3D2A326892DCF67D1170F /* HYFoundation_OC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HYFoundation_OC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		87974A36EE5898BB6067C119F0D395F0 /* NSURL+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+HYCategory.m"; path = "HYFoundation_OC/Classes/NSURL+HYCategory.m"; sourceTree = "<group>"; };
+		738A2595AF599B49AFFA0A3341E143A8 /* NSAttributedString+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+HYCategory.h"; path = "HYFoundation_OC/Classes/NSAttributedString+HYCategory.h"; sourceTree = "<group>"; };
+		7734081D916415420C689277323E208F /* NSDictionary+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+HYCategory.h"; path = "HYFoundation_OC/Classes/NSDictionary+HYCategory.h"; sourceTree = "<group>"; };
+		77C64AA5856EF1A7C320B804B4D83C35 /* HYLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYLog.h; path = HYFoundation_OC/Classes/HYLog.h; sourceTree = "<group>"; };
+		7F1E500E42BF80363913E182740EAE7A /* HYMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYMath.m; path = HYFoundation_OC/Classes/HYMath.m; sourceTree = "<group>"; };
+		82769514EB163D6A82A85004BB18E11B /* HYProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYProxy.h; path = HYFoundation_OC/Classes/HYProxy.h; sourceTree = "<group>"; };
+		86FD3F8B2AF215D97162905087F7A910 /* NSAttributedString+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+HYCategory.m"; path = "HYFoundation_OC/Classes/NSAttributedString+HYCategory.m"; sourceTree = "<group>"; };
+		894DCCEB1E5AF7D2D806752C0821D476 /* HYLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYLog.m; path = HYFoundation_OC/Classes/HYLog.m; sourceTree = "<group>"; };
 		8AF342962E4E9D2A9FD9334FDDBCE8D5 /* Pods-HYFoundation_OC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYFoundation_OC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D4650FC5EEFFDA2BFC32A4276F7628F /* Pods-HYFoundation_OC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYFoundation_OC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9064FE88C2E236B8C4CE1964856108FA /* HYFoundation_OC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYFoundation_OC.modulemap; sourceTree = "<group>"; };
 		9186652A9BE4D6F63019D45A93618886 /* Pods-HYFoundation_OC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYFoundation_OC_Tests-umbrella.h"; sourceTree = "<group>"; };
-		94A55A49A4315E4D214A5265D04BD34E /* HYLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYLog.h; path = HYFoundation_OC/Classes/HYLog.h; sourceTree = "<group>"; };
 		98933D45B042BA3CA16DBE6C846961B4 /* Pods_HYFoundation_OC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYFoundation_OC_Tests.framework; path = "Pods-HYFoundation_OC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		99D39A0E860AE01291C824C425D36C91 /* NSURL+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+HYCategory.h"; path = "HYFoundation_OC/Classes/NSURL+HYCategory.h"; sourceTree = "<group>"; };
-		9BEB2B2CB54025CE0F2A8C4F7E0A7415 /* NSString+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HYCategory.m"; path = "HYFoundation_OC/Classes/NSString+HYCategory.m"; sourceTree = "<group>"; };
+		9B78E74ABCA92830CA0F88F2497CFBC0 /* NSCharacterSet+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCharacterSet+HYCategory.m"; path = "HYFoundation_OC/Classes/NSCharacterSet+HYCategory.m"; sourceTree = "<group>"; };
+		9BA1DF7F225B6B224DA6A1E3F96B0858 /* HYObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYObject.h; path = HYFoundation_OC/Classes/HYObject.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2EB635BE26AB82452FDD93FE74AA940 /* NSNumberFormatter+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumberFormatter+HYCategory.m"; path = "HYFoundation_OC/Classes/NSNumberFormatter+HYCategory.m"; sourceTree = "<group>"; };
 		A4A102449461A5D20A7BFEF7875F03EA /* Pods-HYFoundation_OC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYFoundation_OC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AC54298D2E0FDB302CB29613F36CDC2F /* HYProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYProxy.m; path = HYFoundation_OC/Classes/HYProxy.m; sourceTree = "<group>"; };
-		AE7E17C03ABFBB67545F63ACC25901EF /* NSFileManager+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+HYCategory.m"; path = "HYFoundation_OC/Classes/NSFileManager+HYCategory.m"; sourceTree = "<group>"; };
-		AEF078003A6E4AE672FF6FF93EDAA6DB /* HYFoundation_OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYFoundation_OC-dummy.m"; sourceTree = "<group>"; };
-		B16314FC16017EA2ABD92739418F0EFC /* NSObject+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HYCategory.m"; path = "HYFoundation_OC/Classes/NSObject+HYCategory.m"; sourceTree = "<group>"; };
-		B43C4A9EDE1493340E9954C2D1937A3B /* NSObject+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+HYCategory.h"; path = "HYFoundation_OC/Classes/NSObject+HYCategory.h"; sourceTree = "<group>"; };
-		BE68E75A4329FA692927B91BD801E2BF /* HYPathTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPathTool.m; path = HYFoundation_OC/Classes/HYPathTool.m; sourceTree = "<group>"; };
-		BF0C68B1DF2419BFEA2B7B0DC64573E4 /* NSBundle+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+HYCategory.m"; path = "HYFoundation_OC/Classes/NSBundle+HYCategory.m"; sourceTree = "<group>"; };
-		C0F4233E9DD05CDEBFF755F228430F09 /* HYMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYMath.m; path = HYFoundation_OC/Classes/HYMath.m; sourceTree = "<group>"; };
-		C1A71C958A9BA6B727C3EDD0D9539235 /* NSCharacterSet+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCharacterSet+HYCategory.m"; path = "HYFoundation_OC/Classes/NSCharacterSet+HYCategory.m"; sourceTree = "<group>"; };
+		A7F251213B0FDFC1756F2799C2D35E45 /* HYFoundation_OC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HYFoundation_OC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A823585AF37E74B9CE1D2F19A167C86C /* NSCharacterSet+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCharacterSet+HYCategory.h"; path = "HYFoundation_OC/Classes/NSCharacterSet+HYCategory.h"; sourceTree = "<group>"; };
+		AE28756AD68B8BABB14AE5897B71A0DA /* NSData+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+HYCategory.m"; path = "HYFoundation_OC/Classes/NSData+HYCategory.m"; sourceTree = "<group>"; };
+		AE615577547B32A4F0187BE7F4973951 /* HYProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYProxy.m; path = HYFoundation_OC/Classes/HYProxy.m; sourceTree = "<group>"; };
+		B513EC9D2915A8C41D55BF475E33ED2D /* NSObject+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HYCategory.m"; path = "HYFoundation_OC/Classes/NSObject+HYCategory.m"; sourceTree = "<group>"; };
+		BA7FB264FC7AF6196B3044A54EBE552B /* HYPathTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPathTool.h; path = HYFoundation_OC/Classes/HYPathTool.h; sourceTree = "<group>"; };
+		BB5A96345AB440E112C838B4001B3E65 /* HYObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYObject.m; path = HYFoundation_OC/Classes/HYObject.m; sourceTree = "<group>"; };
+		BE4825692358F7B9DC8C54BCD46CBBF7 /* NSArray+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+HYCategory.h"; path = "HYFoundation_OC/Classes/NSArray+HYCategory.h"; sourceTree = "<group>"; };
 		C2258723DA3C71F2F3EA73C76EE2B26C /* Pods-HYFoundation_OC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYFoundation_OC_Example-umbrella.h"; sourceTree = "<group>"; };
-		CA0E995D4B16E4538AA678DB11CA6CFA /* NSBundle+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+HYCategory.h"; path = "HYFoundation_OC/Classes/NSBundle+HYCategory.h"; sourceTree = "<group>"; };
+		CB40BA4225C30DA20A4791A7997234F3 /* NSFileManager+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+HYCategory.m"; path = "HYFoundation_OC/Classes/NSFileManager+HYCategory.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDD910BC6E4A3BBFFDA048A79D0883FF /* HYTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYTimer.h; path = HYFoundation_OC/Classes/HYTimer.h; sourceTree = "<group>"; };
 		D099B6E0D9B884FD71B58BF445BA8D30 /* Pods-HYFoundation_OC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYFoundation_OC_Tests-Info.plist"; sourceTree = "<group>"; };
 		D101E0BA09A654E3165AF64B7878136E /* Pods-HYFoundation_OC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYFoundation_OC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D188BA2B4213CA022E0BE4757BFF6B47 /* NSDictionary+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+HYCategory.m"; path = "HYFoundation_OC/Classes/NSDictionary+HYCategory.m"; sourceTree = "<group>"; };
-		D337A484D238624B6CC21FFF2E381EEC /* NSDictionary+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+HYCategory.h"; path = "HYFoundation_OC/Classes/NSDictionary+HYCategory.h"; sourceTree = "<group>"; };
-		D4FFBAD47BDC43E73525EEB0B6B7CAB6 /* NSAttributedString+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+HYCategory.m"; path = "HYFoundation_OC/Classes/NSAttributedString+HYCategory.m"; sourceTree = "<group>"; };
+		D39A38D4FAD8FF1D43D6ED12447DA321 /* NSString+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HYCategory.m"; path = "HYFoundation_OC/Classes/NSString+HYCategory.m"; sourceTree = "<group>"; };
+		D76AA43700028B4B6B1DF1F582135FBE /* NSString+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HYCategory.h"; path = "HYFoundation_OC/Classes/NSString+HYCategory.h"; sourceTree = "<group>"; };
 		DAFD30750A55B7233A2E9C959C4E4C6C /* Pods_HYFoundation_OC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYFoundation_OC_Example.framework; path = "Pods-HYFoundation_OC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDFE83279F6D345A72998465643B216E /* NSArray+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HYCategory.m"; path = "HYFoundation_OC/Classes/NSArray+HYCategory.m"; sourceTree = "<group>"; };
+		DCD449BF6E0F41D36488B8D973135F98 /* NSData+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+HYCategory.h"; path = "HYFoundation_OC/Classes/NSData+HYCategory.h"; sourceTree = "<group>"; };
 		E175C1EE3E921C9393097A9F9B508867 /* Pods-HYFoundation_OC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYFoundation_OC_Example.modulemap"; sourceTree = "<group>"; };
-		E593C84F1D78EC87B573A5E1066F8FA2 /* HYLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYLog.m; path = HYFoundation_OC/Classes/HYLog.m; sourceTree = "<group>"; };
+		E543F46411C1BF50872C7BA8DD484D95 /* NSBundle+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+HYCategory.h"; path = "HYFoundation_OC/Classes/NSBundle+HYCategory.h"; sourceTree = "<group>"; };
+		FBAA78937E3568E9CC35CA3ACC49773B /* HYMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYMath.h; path = HYFoundation_OC/Classes/HYMath.h; sourceTree = "<group>"; };
+		FDA8900CE45542439162F8299F2A9E7B /* HYFoundation_OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYFoundation_OC-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,14 +146,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9ABDC64E8521822F54F736EA355C25FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4D6305BA24DEB7E500AC39F1465F3C8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A14BFAC98EE2C56FDC2DB3E481A882A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -158,15 +154,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7A4025FDCEF6CEF1412E9FD7B4DE747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF354396CDE252C6DFDEC06922026278 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2112C06D15129F7EA79E37AC7CA61BD4 /* Development Pods */ = {
+		2EBD518431E2ACE4EE902598D4339AAC /* HYFoundation_OC */ = {
 			isa = PBXGroup;
 			children = (
-				DD03BA02804EC0456730D1B51901216F /* HYFoundation_OC */,
+				77C64AA5856EF1A7C320B804B4D83C35 /* HYLog.h */,
+				894DCCEB1E5AF7D2D806752C0821D476 /* HYLog.m */,
+				FBAA78937E3568E9CC35CA3ACC49773B /* HYMath.h */,
+				7F1E500E42BF80363913E182740EAE7A /* HYMath.m */,
+				9BA1DF7F225B6B224DA6A1E3F96B0858 /* HYObject.h */,
+				BB5A96345AB440E112C838B4001B3E65 /* HYObject.m */,
+				BA7FB264FC7AF6196B3044A54EBE552B /* HYPathTool.h */,
+				577D443A3D3F2EE04CE07504C96FD180 /* HYPathTool.m */,
+				82769514EB163D6A82A85004BB18E11B /* HYProxy.h */,
+				AE615577547B32A4F0187BE7F4973951 /* HYProxy.m */,
+				CDD910BC6E4A3BBFFDA048A79D0883FF /* HYTimer.h */,
+				2E44A8D0FA9F9A82FDFFFA6E848F5196 /* HYTimer.m */,
+				BE4825692358F7B9DC8C54BCD46CBBF7 /* NSArray+HYCategory.h */,
+				3E8D7B84601543B57FA5C544036B5110 /* NSArray+HYCategory.m */,
+				738A2595AF599B49AFFA0A3341E143A8 /* NSAttributedString+HYCategory.h */,
+				86FD3F8B2AF215D97162905087F7A910 /* NSAttributedString+HYCategory.m */,
+				E543F46411C1BF50872C7BA8DD484D95 /* NSBundle+HYCategory.h */,
+				55111A0A9EA38634A55A72639794D063 /* NSBundle+HYCategory.m */,
+				A823585AF37E74B9CE1D2F19A167C86C /* NSCharacterSet+HYCategory.h */,
+				9B78E74ABCA92830CA0F88F2497CFBC0 /* NSCharacterSet+HYCategory.m */,
+				DCD449BF6E0F41D36488B8D973135F98 /* NSData+HYCategory.h */,
+				AE28756AD68B8BABB14AE5897B71A0DA /* NSData+HYCategory.m */,
+				7734081D916415420C689277323E208F /* NSDictionary+HYCategory.h */,
+				3383F199F5FA09B396D3B9F648D5471B /* NSDictionary+HYCategory.m */,
+				1DFB50AE2B5E063BD6EF6521FA5AE711 /* NSFileManager+HYCategory.h */,
+				CB40BA4225C30DA20A4791A7997234F3 /* NSFileManager+HYCategory.m */,
+				1B9A59658C97A5F481246A20BD9112FF /* NSNumberFormatter+HYCategory.h */,
+				297D25413A2785EBC8EB5B188B3129D1 /* NSNumberFormatter+HYCategory.m */,
+				661E1F7A3676C7BD8CE36D35E66C90F8 /* NSObject+HYCategory.h */,
+				B513EC9D2915A8C41D55BF475E33ED2D /* NSObject+HYCategory.m */,
+				D76AA43700028B4B6B1DF1F582135FBE /* NSString+HYCategory.h */,
+				D39A38D4FAD8FF1D43D6ED12447DA321 /* NSString+HYCategory.m */,
+				1B6EE2F90FF1DBDF8D27A8AC85D184A9 /* NSURL+HYCategory.h */,
+				5DDB8BF58F05671498E121F48CF058A2 /* NSURL+HYCategory.m */,
+				99701247708B8D1F3A735EC719204A3D /* Pod */,
+				AF59EC1D55E578175F564248F32F3B9A /* Support Files */,
 			);
-			name = "Development Pods";
+			name = HYFoundation_OC;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		649D2EA587F6BBB602400F6146AB3870 /* Targets Support Files */ = {
@@ -178,26 +218,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6B4CAA6FCECD56B14F4D0E3BCC14D719 /* Support Files */ = {
+		99701247708B8D1F3A735EC719204A3D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				51E0EA5121B14C4FFBB38DED409384C0 /* HYFoundation_OC.modulemap */,
-				17988A170986E4086076BC6680EDB859 /* HYFoundation_OC.xcconfig */,
-				AEF078003A6E4AE672FF6FF93EDAA6DB /* HYFoundation_OC-dummy.m */,
-				2EE7EFD6E02D558A50BEA7E6AB022501 /* HYFoundation_OC-Info.plist */,
-				2F91934F11ED69DA46C623438DE1D969 /* HYFoundation_OC-prefix.pch */,
-				4BD7EC68C5F6AB6E0F7A9EB9F875C4F3 /* HYFoundation_OC-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HYFoundation_OC";
-			sourceTree = "<group>";
-		};
-		789385E426888955551BBB143C3EEA02 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				77DC9676EBD3D2A326892DCF67D1170F /* HYFoundation_OC.podspec */,
-				688039A678317AC8684968E79FAE3941 /* LICENSE */,
-				10D17CDA79F46167515E82686EFD3D32 /* README.md */,
+				A7F251213B0FDFC1756F2799C2D35E45 /* HYFoundation_OC.podspec */,
+				14065F0D2ABCAB5D90DEF4EF31CCF225 /* LICENSE */,
+				4B158B74FF2588B6CC6948F926801EB6 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -208,6 +234,28 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		9F831DA21A7475D0A41E95AA08727BEC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EBD518431E2ACE4EE902598D4339AAC /* HYFoundation_OC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AF59EC1D55E578175F564248F32F3B9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9064FE88C2E236B8C4CE1964856108FA /* HYFoundation_OC.modulemap */,
+				5CF62BA313D0EDEE9C22C945C0F450D2 /* HYFoundation_OC.xcconfig */,
+				FDA8900CE45542439162F8299F2A9E7B /* HYFoundation_OC-dummy.m */,
+				4DA22052A4A4738E68AEF8304656D4FF /* HYFoundation_OC-Info.plist */,
+				2A675D401CCE68BA3FF4408ABDA97409 /* HYFoundation_OC-prefix.pch */,
+				4009E8CFD39F096AD65F285627F68224 /* HYFoundation_OC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYFoundation_OC";
 			sourceTree = "<group>";
 		};
 		C6A63DE82A6E110E37F31EBB19C21039 /* Pods-HYFoundation_OC_Tests */ = {
@@ -230,7 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2112C06D15129F7EA79E37AC7CA61BD4 /* Development Pods */,
+				9F831DA21A7475D0A41E95AA08727BEC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				FFD157BD75ADDC45ECE8A8402029E153 /* Products */,
 				649D2EA587F6BBB602400F6146AB3870 /* Targets Support Files */,
@@ -262,48 +310,6 @@
 			path = "Target Support Files/Pods-HYFoundation_OC_Example";
 			sourceTree = "<group>";
 		};
-		DD03BA02804EC0456730D1B51901216F /* HYFoundation_OC */ = {
-			isa = PBXGroup;
-			children = (
-				94A55A49A4315E4D214A5265D04BD34E /* HYLog.h */,
-				E593C84F1D78EC87B573A5E1066F8FA2 /* HYLog.m */,
-				05279C207D8F00B34D55FACEF87DE9E1 /* HYMath.h */,
-				C0F4233E9DD05CDEBFF755F228430F09 /* HYMath.m */,
-				4DF0B218DAE4529CD9142EBC46C9263D /* HYObject.h */,
-				04B17CD470F9620278C5319279EBC665 /* HYObject.m */,
-				02AC0AEDB706343F68A523A4F6A17175 /* HYPathTool.h */,
-				BE68E75A4329FA692927B91BD801E2BF /* HYPathTool.m */,
-				6FD524D9FD501F1891D324C4FCFAD65E /* HYProxy.h */,
-				AC54298D2E0FDB302CB29613F36CDC2F /* HYProxy.m */,
-				1A2620D64DBE4D03077BFE89583D5DCC /* NSArray+HYCategory.h */,
-				DDFE83279F6D345A72998465643B216E /* NSArray+HYCategory.m */,
-				2BB43EBAD51BB910FC418642EB8C852D /* NSAttributedString+HYCategory.h */,
-				D4FFBAD47BDC43E73525EEB0B6B7CAB6 /* NSAttributedString+HYCategory.m */,
-				CA0E995D4B16E4538AA678DB11CA6CFA /* NSBundle+HYCategory.h */,
-				BF0C68B1DF2419BFEA2B7B0DC64573E4 /* NSBundle+HYCategory.m */,
-				18D76B3BADF19E9AE8650851D7FE33A0 /* NSCharacterSet+HYCategory.h */,
-				C1A71C958A9BA6B727C3EDD0D9539235 /* NSCharacterSet+HYCategory.m */,
-				07261C122C654D333EB778A4D4F3554F /* NSData+HYCategory.h */,
-				5746F3D6DA099567E795A820DC943A8F /* NSData+HYCategory.m */,
-				D337A484D238624B6CC21FFF2E381EEC /* NSDictionary+HYCategory.h */,
-				D188BA2B4213CA022E0BE4757BFF6B47 /* NSDictionary+HYCategory.m */,
-				642A6D8AAE13A764455328DCF7928E07 /* NSFileManager+HYCategory.h */,
-				AE7E17C03ABFBB67545F63ACC25901EF /* NSFileManager+HYCategory.m */,
-				00AF10DCB000492230AFB1ACBBC7FBD7 /* NSNumberFormatter+HYCategory.h */,
-				A2EB635BE26AB82452FDD93FE74AA940 /* NSNumberFormatter+HYCategory.m */,
-				B43C4A9EDE1493340E9954C2D1937A3B /* NSObject+HYCategory.h */,
-				B16314FC16017EA2ABD92739418F0EFC /* NSObject+HYCategory.m */,
-				0D172C7F9471050CDE832EA887F77C93 /* NSString+HYCategory.h */,
-				9BEB2B2CB54025CE0F2A8C4F7E0A7415 /* NSString+HYCategory.m */,
-				99D39A0E860AE01291C824C425D36C91 /* NSURL+HYCategory.h */,
-				87974A36EE5898BB6067C119F0D395F0 /* NSURL+HYCategory.m */,
-				789385E426888955551BBB143C3EEA02 /* Pod */,
-				6B4CAA6FCECD56B14F4D0E3BCC14D719 /* Support Files */,
-			);
-			name = HYFoundation_OC;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		FFD157BD75ADDC45ECE8A8402029E153 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,27 +323,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7DA3DB3520A8C69368543A013B5EAADA /* Headers */ = {
+		82642AEC2773B785AAD775C9F56DD670 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B0B1E45C997AF03D88297F64D696F4E /* HYFoundation_OC-umbrella.h in Headers */,
-				71B52933938886CC595D243AEE132D9A /* HYLog.h in Headers */,
-				F87E01B28153305E80210D24FD5872F6 /* HYMath.h in Headers */,
-				42D07FEB97E2C449940520205E293A73 /* HYObject.h in Headers */,
-				00A6CB491B59B62B5DF092F959AA01F3 /* HYPathTool.h in Headers */,
-				CAFA5175654D11A63FDB97389A37CDEF /* HYProxy.h in Headers */,
-				6CB78B3E1379A74E4616EA9B9C3F6028 /* NSArray+HYCategory.h in Headers */,
-				60A83DA4ACB52FDA1B94F9005C2DA809 /* NSAttributedString+HYCategory.h in Headers */,
-				E8ECF332832959E4B3A986FE7905EF46 /* NSBundle+HYCategory.h in Headers */,
-				79B054FD7BEE664EE52E5AE912B0F144 /* NSCharacterSet+HYCategory.h in Headers */,
-				6290FE24F7055335E44E04B9BE9D76BC /* NSData+HYCategory.h in Headers */,
-				0687A331330C706713B790AAD8665009 /* NSDictionary+HYCategory.h in Headers */,
-				9F17A2EB488C11BB04F1836CA20D3ACB /* NSFileManager+HYCategory.h in Headers */,
-				B9238F78E4A08018CBDE4671FBF2532C /* NSNumberFormatter+HYCategory.h in Headers */,
-				E1A4C09086D7560ADF1052DAE1124611 /* NSObject+HYCategory.h in Headers */,
-				F8EC63BEFE868684CD7DB438669A94E9 /* NSString+HYCategory.h in Headers */,
-				1A290AE17DDDDA22AE0C82FF9C6BB20D /* NSURL+HYCategory.h in Headers */,
+				32FA54B1EE7563DAFFAD3343AD5E893E /* HYFoundation_OC-umbrella.h in Headers */,
+				C5137001EB7AB803BA289E335B582755 /* HYLog.h in Headers */,
+				0018EB7EA100D90E45D5E4EBD288D4D2 /* HYMath.h in Headers */,
+				1861DFEBF8B6043A5654EA3661AE16D6 /* HYObject.h in Headers */,
+				159BBD7EEC15726A101A037EEEEEBA57 /* HYPathTool.h in Headers */,
+				709D90F07EFC7D725709B0DF14033207 /* HYProxy.h in Headers */,
+				70A716002428B4E57D33ECC7AD267D2E /* HYTimer.h in Headers */,
+				C4299C7477E1F283B8E3D1469B3B223E /* NSArray+HYCategory.h in Headers */,
+				F7532FB5AA8790DE91A288A7109CAD26 /* NSAttributedString+HYCategory.h in Headers */,
+				E54ACDCA07A961C8438C783A3757B9AE /* NSBundle+HYCategory.h in Headers */,
+				7FA2B28F04996F40235ED8C36329738B /* NSCharacterSet+HYCategory.h in Headers */,
+				732BEE02EA8A915AF8DBCFAE370DE9AD /* NSData+HYCategory.h in Headers */,
+				04D46FA69ACD5DD9125D00566615901C /* NSDictionary+HYCategory.h in Headers */,
+				103869B049B58BF89F3EEBD61FE2C5E5 /* NSFileManager+HYCategory.h in Headers */,
+				C8CC2C916FE11DD2F80508488B117A8E /* NSNumberFormatter+HYCategory.h in Headers */,
+				4FE4C54D146074E50189F2D0A376DF73 /* NSObject+HYCategory.h in Headers */,
+				320948EA54F00A1CAB520592F974EF1B /* NSString+HYCategory.h in Headers */,
+				6CC70723621A416C77EB5A488623F44E /* NSURL+HYCategory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +367,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0DF7806332561305A7CCB3AE17DDED25 /* HYFoundation_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C4AC060788F5546FA54C556606B0CD /* Build configuration list for PBXNativeTarget "HYFoundation_OC" */;
+			buildPhases = (
+				82642AEC2773B785AAD775C9F56DD670 /* Headers */,
+				8B4EE1DBB81E91BDCC5093B938C02F41 /* Sources */,
+				A7A4025FDCEF6CEF1412E9FD7B4DE747 /* Frameworks */,
+				9613ACF4A483FDD3E33BBDDD179B57E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYFoundation_OC;
+			productName = HYFoundation_OC;
+			productReference = 6965F41F45454ECF8D238EE8C436E762 /* HYFoundation_OC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2E457D1A28AC1604AACD4671C12CF2BA /* Pods-HYFoundation_OC_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7120BFE8D36EF7B8005205F50209617C /* Build configuration list for PBXNativeTarget "Pods-HYFoundation_OC_Tests" */;
@@ -398,24 +423,6 @@
 			productReference = DAFD30750A55B7233A2E9C959C4E4C6C /* Pods_HYFoundation_OC_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		575F677778F498B538C09457C63E3B9D /* HYFoundation_OC */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10B07330F8FAE5DAF69019CD37D673C4 /* Build configuration list for PBXNativeTarget "HYFoundation_OC" */;
-			buildPhases = (
-				7DA3DB3520A8C69368543A013B5EAADA /* Headers */,
-				D87DF154ABE10C9B2048256EBDB489FA /* Sources */,
-				9ABDC64E8521822F54F736EA355C25FA /* Frameworks */,
-				166D411F17B20DCFA1D1A20F7DB2A472 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HYFoundation_OC;
-			productName = HYFoundation_OC;
-			productReference = 6965F41F45454ECF8D238EE8C436E762 /* HYFoundation_OC.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -437,7 +444,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				575F677778F498B538C09457C63E3B9D /* HYFoundation_OC */,
+				0DF7806332561305A7CCB3AE17DDED25 /* HYFoundation_OC */,
 				51AD40AA8E3E678297A1F3145282FC21 /* Pods-HYFoundation_OC_Example */,
 				2E457D1A28AC1604AACD4671C12CF2BA /* Pods-HYFoundation_OC_Tests */,
 			);
@@ -445,13 +452,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		166D411F17B20DCFA1D1A20F7DB2A472 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2AB23B5553B515DABE46878B946A45D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,6 +460,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		821B2675DE62EC6429631D5059C9F73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9613ACF4A483FDD3E33BBDDD179B57E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,27 +492,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D87DF154ABE10C9B2048256EBDB489FA /* Sources */ = {
+		8B4EE1DBB81E91BDCC5093B938C02F41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93907EBC65E1563F28209D5B6C4A4AD /* HYFoundation_OC-dummy.m in Sources */,
-				CFBA11B010B96325B890F18A4C0320C4 /* HYLog.m in Sources */,
-				134A8D102F711595AE3372A414CA9A2F /* HYMath.m in Sources */,
-				6D8213E03F531648EA7FF827CC149D98 /* HYObject.m in Sources */,
-				26B0F0E0BD66610488DF850E1DDD36D4 /* HYPathTool.m in Sources */,
-				1DE92C7EBD320CE38B5D0CB4CDC019B5 /* HYProxy.m in Sources */,
-				BEA3F885C38CEC2FF615663F35255591 /* NSArray+HYCategory.m in Sources */,
-				BBE8704B52BCB81D385E6A239A0F5248 /* NSAttributedString+HYCategory.m in Sources */,
-				9C402982F9821B476B919B3D4BB6ACCF /* NSBundle+HYCategory.m in Sources */,
-				674953610803071E950F6529DFCEEFDF /* NSCharacterSet+HYCategory.m in Sources */,
-				94340C673C576E64CFA40176E0887D07 /* NSData+HYCategory.m in Sources */,
-				FA4E3F60DB2533F398776F7693EF8112 /* NSDictionary+HYCategory.m in Sources */,
-				F3404DA8EE1F30E3BEC274B6DD690BD1 /* NSFileManager+HYCategory.m in Sources */,
-				DABA4EF35B1DDC718C1CD43BA2A6C57B /* NSNumberFormatter+HYCategory.m in Sources */,
-				F0B91BC08CD055817FB552498B53491F /* NSObject+HYCategory.m in Sources */,
-				2CEF6EC1FFAD8A7B2A249A7B487837BD /* NSString+HYCategory.m in Sources */,
-				6F0A7823D879D50C310047EEBF6A2BF1 /* NSURL+HYCategory.m in Sources */,
+				95DFEB89BFF50633055311E346D275E4 /* HYFoundation_OC-dummy.m in Sources */,
+				0D9B913B4A9010E4DB68DB81D9087108 /* HYLog.m in Sources */,
+				C51EC71DDFD3305C145A09B74E765311 /* HYMath.m in Sources */,
+				E87384C1C842AE2AE12C60AFF13A772A /* HYObject.m in Sources */,
+				7DE67A3BF628294B42A667A502EFFE24 /* HYPathTool.m in Sources */,
+				420501F37EC2B7970CA3C80A5BE011E8 /* HYProxy.m in Sources */,
+				A974E289D7DEBF5A996264E9099805BC /* HYTimer.m in Sources */,
+				6B4FB6C5B86D88996272007FC4B15211 /* NSArray+HYCategory.m in Sources */,
+				17767D5B5B9014565C23585F29BD90F2 /* NSAttributedString+HYCategory.m in Sources */,
+				87D21126C0141E8F3C29354F7C1C08B9 /* NSBundle+HYCategory.m in Sources */,
+				305582E80EAF8E7A6A3D151B0DC597D3 /* NSCharacterSet+HYCategory.m in Sources */,
+				7363FB51AF730EE39B206510259CFD1A /* NSData+HYCategory.m in Sources */,
+				8A613CBC50FC5B7638CD743D3389C237 /* NSDictionary+HYCategory.m in Sources */,
+				AA54EAEE6EAB9BF7816CB17E68307219 /* NSFileManager+HYCategory.m in Sources */,
+				A09CC56568E97D20FC92DB7EF0509107 /* NSNumberFormatter+HYCategory.m in Sources */,
+				0E2D23DEDCA64BC4D5FDBF785ED40E6F /* NSObject+HYCategory.m in Sources */,
+				A987447C2A976D416BF7594EF5FEB30A /* NSString+HYCategory.m in Sources */,
+				9AFD41FA46C4BDC8F08F5C104B768010 /* NSURL+HYCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +529,7 @@
 		E45F33B6C5757E97EEB2666620A63EFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HYFoundation_OC;
-			target = 575F677778F498B538C09457C63E3B9D /* HYFoundation_OC */;
+			target = 0DF7806332561305A7CCB3AE17DDED25 /* HYFoundation_OC */;
 			targetProxy = E08D9A2A52A397C4A8503133CAB0E8C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -591,6 +599,37 @@
 			};
 			name = Debug;
 		};
+		1B12ED871DD2D20497D2928A5C84C819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF62BA313D0EDEE9C22C945C0F450D2 /* HYFoundation_OC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYFoundation_OC/HYFoundation_OC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYFoundation_OC/HYFoundation_OC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYFoundation_OC/HYFoundation_OC.modulemap";
+				PRODUCT_MODULE_NAME = HYFoundation_OC;
+				PRODUCT_NAME = HYFoundation_OC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4506353EA336CCE62783CDAED196FA15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8AF342962E4E9D2A9FD9334FDDBCE8D5 /* Pods-HYFoundation_OC_Example.release.xcconfig */;
@@ -624,36 +663,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		95BE55A5E6741EAD2AABA6A7366AF419 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17988A170986E4086076BC6680EDB859 /* HYFoundation_OC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HYFoundation_OC/HYFoundation_OC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HYFoundation_OC/HYFoundation_OC-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HYFoundation_OC/HYFoundation_OC.modulemap";
-				PRODUCT_MODULE_NAME = HYFoundation_OC;
-				PRODUCT_NAME = HYFoundation_OC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		9811FE191A1F9DD1CE456F781B172ED4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -748,9 +757,9 @@
 			};
 			name = Release;
 		};
-		B5D2E0AE13E0797E9FA0F4B32DA20167 /* Release */ = {
+		AD1C6F66996A152072799D7560AB24FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17988A170986E4086076BC6680EDB859 /* HYFoundation_OC.xcconfig */;
+			baseConfigurationReference = 5CF62BA313D0EDEE9C22C945C0F450D2 /* HYFoundation_OC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -773,11 +782,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D07C22F543858A33FE35F1975D6EB181 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -849,15 +857,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10B07330F8FAE5DAF69019CD37D673C4 /* Build configuration list for PBXNativeTarget "HYFoundation_OC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95BE55A5E6741EAD2AABA6A7366AF419 /* Debug */,
-				B5D2E0AE13E0797E9FA0F4B32DA20167 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		145643B325DB3878AFAC55E0907B7E80 /* Build configuration list for PBXNativeTarget "Pods-HYFoundation_OC_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -872,6 +871,15 @@
 			buildConfigurations = (
 				07488D4657FB0A78086563621D425F8A /* Debug */,
 				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C4AC060788F5546FA54C556606B0CD /* Build configuration list for PBXNativeTarget "HYFoundation_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1C6F66996A152072799D7560AB24FC /* Debug */,
+				1B12ED871DD2D20497D2928A5C84C819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
